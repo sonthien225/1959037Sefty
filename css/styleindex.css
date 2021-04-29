@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.bg-add{
+	background-image: url(https://em.wattpad.com/1f57c9184154e5bad7fb439d5bc8047ea185a754/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f71545349585930417653717071413d3d2d3332323534343330312e313437646266333634643736383964353830383931383130303431372e6a7067); 
+	background-size: cover; 
+	height: 100vh; 
+}
+.navbar{
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #f56f6f;
+}
+.navbar .logo{
+	width: 220px;
+	height: auto;
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a:hover{
+	background: rgb(248, 170, 170);
+	border-radius: 2px;
+}
+.navbar ul li a.clicked {
+	color: rgb(53, 2, 2);
+}
+
+.container .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h2{
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center p{
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.center .quote {
+	max-width: 50%;
+	padding: 80px 20px;
+  }
+
+  
+.name span {
+	font-size: 50px;
+	font-weight: bold;
+	color: #f35a34;
+	transition: font-size 500ms, color 500ms;
+  }
+  
+  .name span:hover {
+	font-size: 70px;
+	color: #f5837a;
+  }
+  
+  .name p {
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	color: #0a0000;
+	transition: font-size 500ms, padding-top 500ms, color 500ms;
+  }
+  
+  .name p:hover {
+	font-size: 35px;
+	padding-top: 5px;
+	color: black;
+  }
+
+  #main-col {
+	margin: 40px auto;
+  }
+  .col-3{
+	  padding-left: 30px;
+  }  
+  .content{
+	  padding-left: 150px;
+  }
+  #main-col .content .col-3 {
+	padding: 15px 10px;
+	margin-right: 90px;
+	box-shadow: 5px 5px 7px lightgrey;
+  }
+
+  footer{
+	margin-top: 100px;
+  }

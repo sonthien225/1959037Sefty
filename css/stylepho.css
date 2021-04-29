@@ -1,0 +1,35 @@
+.container{
+  margin: 100px 50px;
+  padding: 20px;
+}
+
+.gallery{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:10px;
+}
+.gallery img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.item{
+  height: 30vh;
+}
+h2{
+  padding: 10px;
+  text-align: center;
+}
+
+/*tablet breakpont*/
+@media screen and (max-width:780px){
+  .gallery{
+      grid-template-columns: 1fr 1fr;
+  }
+}
+/*mobile breakpont*/
+@media screen and (max-width:550px){
+  .front-three, .front-two, .gallery{
+      display:block;
+  }
+}

@@ -1,0 +1,43 @@
+.main{
+  margin: 100px 50px;
+  border: dotted 1px grey;
+  padding: 20px;
+  box-shadow: 1px 1px 3px black;
+}
+
+
+.header{
+  position: relative;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 200;
+}
+h1{
+  font-weight: 800;
+}
+.bolder-name{
+  background-color: #ededed;
+  color: rgb(255, 0, 0);
+  font-weight: bolder;
+  border-radius: 12px;
+  padding: 5px;
+}
+a{
+  text-decoration: none;
+  color: #383838;
+}
+ul {
+  list-style: none;
+}
+
+img.hinh {
+  position: absolute;
+  width: 150px;
+  top: 10px;
+  right: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 4px grey;
+  padding: 4px;
+}
